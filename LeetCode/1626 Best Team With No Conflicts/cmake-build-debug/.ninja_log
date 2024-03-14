@@ -1,0 +1,15 @@
+# ninja log v5
+618	746	1675162643963319152	1626_Best_Team_With_No_Conflicts	1517e7915c1396a7
+1	618	1675162643839319731	CMakeFiles/1626_Best_Team_With_No_Conflicts.dir/main.cpp.o	5ba64fb75012a139
+2	503	1675162643723320272	CMakeFiles/1626_Best_Team_With_No_Conflicts.dir/myHeap.cpp.o	fb87a597bfb1354b
+1	631	1675163152852717041	CMakeFiles/1626_Best_Team_With_No_Conflicts.dir/myHeap.cpp.o	fb87a597bfb1354b
+0	674	1675163152896717396	CMakeFiles/1626_Best_Team_With_No_Conflicts.dir/main.cpp.o	5ba64fb75012a139
+675	801	1675163153020718396	1626_Best_Team_With_No_Conflicts	1517e7915c1396a7
+0	655	1675163170416861013	CMakeFiles/1626_Best_Team_With_No_Conflicts.dir/main.cpp.o	5ba64fb75012a139
+655	771	1675163170532861979	1626_Best_Team_With_No_Conflicts	1517e7915c1396a7
+1	607	1675163203629145020	CMakeFiles/1626_Best_Team_With_No_Conflicts.dir/main.cpp.o	5ba64fb75012a139
+607	740	1675163203761146178	1626_Best_Team_With_No_Conflicts	1517e7915c1396a7
+1	657	1675163235497431252	CMakeFiles/1626_Best_Team_With_No_Conflicts.dir/main.cpp.o	5ba64fb75012a139
+657	786	1675163235625432428	1626_Best_Team_With_No_Conflicts	1517e7915c1396a7
+1	569	1675163263933697330	CMakeFiles/1626_Best_Team_With_No_Conflicts.dir/main.cpp.o	5ba64fb75012a139
+569	662	1675163264025698206	1626_Best_Team_With_No_Conflicts	1517e7915c1396a7

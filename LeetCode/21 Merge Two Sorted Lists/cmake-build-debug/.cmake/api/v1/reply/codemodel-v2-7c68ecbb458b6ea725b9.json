@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "21_Merge_Two_Sorted_Lists",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "21_Merge_Two_Sorted_Lists::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-21_Merge_Two_Sorted_Lists-Debug-0e6b9dee40fb8c1578ea.json",
+					"name" : "21_Merge_Two_Sorted_Lists",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zakis/Code/c++/LeetCode/21 Merge Two Sorted Lists/cmake-build-debug",
+		"source" : "/home/zakis/Code/c++/LeetCode/21 Merge Two Sorted Lists"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

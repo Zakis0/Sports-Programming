@@ -1,0 +1,3 @@
+/home/zakis/Code/c++/LeetCode/724 Find Pivot Index/cmake-build-debug/CMakeFiles/724_Find_Pivot_Index.dir
+/home/zakis/Code/c++/LeetCode/724 Find Pivot Index/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/c++/LeetCode/724 Find Pivot Index/cmake-build-debug/CMakeFiles/rebuild_cache.dir

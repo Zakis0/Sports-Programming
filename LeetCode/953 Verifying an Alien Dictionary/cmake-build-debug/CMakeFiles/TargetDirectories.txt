@@ -1,0 +1,3 @@
+/home/zakis/Code/c++/LeetCode/953 Verifying an Alien Dictionary/cmake-build-debug/CMakeFiles/953_Verifying_an_Alien_Dictionary.dir
+/home/zakis/Code/c++/LeetCode/953 Verifying an Alien Dictionary/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/c++/LeetCode/953 Verifying an Alien Dictionary/cmake-build-debug/CMakeFiles/rebuild_cache.dir

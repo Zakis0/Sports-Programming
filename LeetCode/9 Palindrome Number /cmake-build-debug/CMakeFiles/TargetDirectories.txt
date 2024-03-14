@@ -1,0 +1,3 @@
+/home/zakis/Code/c++/LeetCode/9 Palindrome Number /cmake-build-debug/CMakeFiles/9_Palindrome_Number_.dir
+/home/zakis/Code/c++/LeetCode/9 Palindrome Number /cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/c++/LeetCode/9 Palindrome Number /cmake-build-debug/CMakeFiles/rebuild_cache.dir
