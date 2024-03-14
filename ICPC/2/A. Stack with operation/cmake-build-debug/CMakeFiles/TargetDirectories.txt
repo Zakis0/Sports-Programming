@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/ICPC/2/A. Stack with operation/cmake-build-debug/CMakeFiles/A__Stack_with_operation.dir
+/home/zakis/Code/sportsProgramming/ICPC/2/A. Stack with operation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/ICPC/2/A. Stack with operation/cmake-build-debug/CMakeFiles/rebuild_cache.dir

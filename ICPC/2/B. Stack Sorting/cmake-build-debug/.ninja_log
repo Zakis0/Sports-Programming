@@ -1,0 +1,9 @@
+# ninja log v5
+1	1610	1665862628746071391	CMakeFiles/stackSorting.dir/main.cpp.o	d7afded46a3884db
+1610	1707	1665862628842074200	../stackSorting	e8a9f0d5c46bf91
+3	1381	1710242303787028942	CMakeFiles/stackSorting.dir/main.cpp.o	7b88259165bbedb7
+1382	1493	1710242303899029517	/home/zakis/Code/sportsProgramming/ICPC/2/stackSorting/stackSorting	c2fa8aef6e8edf40
+3	1368	1710242363091844256	CMakeFiles/stackSorting.dir/main.cpp.o	7b88259165bbedb7
+1369	1476	1710242363199846538	/home/zakis/Code/sportsProgramming/ICPC/2/stackSorting/stackSorting	c2fa8aef6e8edf40
+2	1320	1710242422473412534	CMakeFiles/stackSorting.dir/main.cpp.o	7b88259165bbedb7
+1320	1427	1710242422581415883	/home/zakis/Code/sportsProgramming/ICPC/2/stackSorting/stackSorting	c2fa8aef6e8edf40

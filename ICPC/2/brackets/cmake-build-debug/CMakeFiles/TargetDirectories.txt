@@ -1,0 +1,3 @@
+/home/zakis/CLionProjects/ICPC/2/brackets/cmake-build-debug/CMakeFiles/brackets.dir
+/home/zakis/CLionProjects/ICPC/2/brackets/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/CLionProjects/ICPC/2/brackets/cmake-build-debug/CMakeFiles/rebuild_cache.dir

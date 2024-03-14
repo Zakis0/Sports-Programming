@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/ICPC/2/F. One more task/cmake-build-debug/CMakeFiles/F__One_more_task.dir
+/home/zakis/Code/sportsProgramming/ICPC/2/F. One more task/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/ICPC/2/F. One more task/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/home/zakis/CLionProjects/ICPC/2/reversePolishNotation/cmake-build-debug/CMakeFiles/reversePolishNotation.dir
+/home/zakis/CLionProjects/ICPC/2/reversePolishNotation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/CLionProjects/ICPC/2/reversePolishNotation/cmake-build-debug/CMakeFiles/rebuild_cache.dir

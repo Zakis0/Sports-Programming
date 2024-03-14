@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/ICPC/2/E. Barrier painting/cmake-build-debug/CMakeFiles/E__Barrier_painting.dir
+/home/zakis/Code/sportsProgramming/ICPC/2/E. Barrier painting/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/ICPC/2/E. Barrier painting/cmake-build-debug/CMakeFiles/rebuild_cache.dir
