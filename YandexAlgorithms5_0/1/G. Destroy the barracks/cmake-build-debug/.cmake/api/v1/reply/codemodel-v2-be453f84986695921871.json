@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "G__Destroy_the_barracks",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "G__Destroy_the_barracks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-G__Destroy_the_barracks-Debug-2e13ed543d8cfb3a2d6d.json",
+					"name" : "G__Destroy_the_barracks",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/G. Destroy the barracks/cmake-build-debug",
+		"source" : "/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/G. Destroy the barracks"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

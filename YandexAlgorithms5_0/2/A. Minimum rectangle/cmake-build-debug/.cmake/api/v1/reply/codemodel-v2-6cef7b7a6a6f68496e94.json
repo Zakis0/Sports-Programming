@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "A__Minimum_rectangle",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "A__Minimum_rectangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A__Minimum_rectangle-Debug-26b2331c23c6d0b46685.json",
+					"name" : "A__Minimum_rectangle",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/A. Minimum rectangle/cmake-build-debug",
+		"source" : "/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/A. Minimum rectangle"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

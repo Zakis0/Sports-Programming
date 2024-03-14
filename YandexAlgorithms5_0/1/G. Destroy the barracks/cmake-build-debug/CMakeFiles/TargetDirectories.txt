@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/G. Destroy the barracks/cmake-build-debug/CMakeFiles/G__Destroy_the_barracks.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/G. Destroy the barracks/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/G. Destroy the barracks/cmake-build-debug/CMakeFiles/rebuild_cache.dir

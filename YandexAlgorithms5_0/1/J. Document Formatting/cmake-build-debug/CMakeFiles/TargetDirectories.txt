@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/J. Document Formatting/cmake-build-debug/CMakeFiles/J__Document_Formatting.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/J. Document Formatting/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/J. Document Formatting/cmake-build-debug/CMakeFiles/rebuild_cache.dir

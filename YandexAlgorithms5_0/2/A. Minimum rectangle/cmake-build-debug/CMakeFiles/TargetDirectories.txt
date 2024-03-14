@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/A. Minimum rectangle/cmake-build-debug/CMakeFiles/A__Minimum_rectangle.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/A. Minimum rectangle/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/A. Minimum rectangle/cmake-build-debug/CMakeFiles/rebuild_cache.dir

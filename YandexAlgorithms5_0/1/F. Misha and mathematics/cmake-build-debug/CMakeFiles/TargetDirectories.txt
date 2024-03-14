@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/F. Misha and mathematics/cmake-build-debug/CMakeFiles/F__Misha_and_mathematics.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/F. Misha and mathematics/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/F. Misha and mathematics/cmake-build-debug/CMakeFiles/rebuild_cache.dir

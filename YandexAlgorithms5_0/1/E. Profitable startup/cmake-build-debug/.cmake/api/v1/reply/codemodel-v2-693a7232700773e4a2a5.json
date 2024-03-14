@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "E__Profitable_startup",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "E__Profitable_startup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-E__Profitable_startup-Debug-d67d15ce4d6c25121d3e.json",
+					"name" : "E__Profitable_startup",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/E. Profitable startup/cmake-build-debug",
+		"source" : "/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/E. Profitable startup"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

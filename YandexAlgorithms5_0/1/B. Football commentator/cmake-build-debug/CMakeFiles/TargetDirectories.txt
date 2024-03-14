@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/B. Football commentator/cmake-build-debug/CMakeFiles/B__Football_commentator.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/B. Football commentator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/1/B. Football commentator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/B. Fish seller/cmake-build-debug/CMakeFiles/B__Fish_seller.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/B. Fish seller/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/B. Fish seller/cmake-build-debug/CMakeFiles/rebuild_cache.dir
