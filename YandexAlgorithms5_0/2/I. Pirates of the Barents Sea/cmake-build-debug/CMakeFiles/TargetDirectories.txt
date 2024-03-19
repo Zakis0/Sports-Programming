@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/I. Pirates of the Barents Sea/cmake-build-debug/CMakeFiles/I__Pirates_of_the_Barents_Sea.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/I. Pirates of the Barents Sea/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/I. Pirates of the Barents Sea/cmake-build-debug/CMakeFiles/rebuild_cache.dir

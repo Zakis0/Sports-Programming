@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/F. Wheel of Fortune/cmake-build-debug/CMakeFiles/F__Wheel_of_Fortune.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/F. Wheel of Fortune/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/2/F. Wheel of Fortune/cmake-build-debug/CMakeFiles/rebuild_cache.dir

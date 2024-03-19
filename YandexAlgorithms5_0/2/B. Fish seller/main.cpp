@@ -3,20 +3,16 @@
 using namespace std;
 
 void solve() {
-    int numOfDays, timeToDeterioration, deterioration, price, profit;
+    int numOfDays, timeToDeterioration, price, profit = 0;
     cin >> numOfDays >> timeToDeterioration;
     int curDayMinPrice[numOfDays];
+    fill(curDayMinPrice, curDayMinPrice + numOfDays, INT32_MAX);
     for (int i = 0; i < numOfDays; ++i) {
         cin >> price;
-        if (i == 0) {
-            curDayMinPrice[i] = price;
-            continue;
+        for (int j = 0; j < timeToDeterioration + 1 && i + j < numOfDays; ++j) {
+            curDayMinPrice[i + j] = min(curDayMinPrice[i + j], price);
         }
-        if (i > timeToDeterioration) {
-            curDayMinPrice[i - timeToDeterioration] = INT32_MAX;
-        }
-        curDayMinPrice[i] = min(price, curDayMinPrice[i - 1]);
-        profit = max(profit, price - curDayMinPrice[i - 1]);
+        profit = max(profit, price - curDayMinPrice[i]);
     }
     cout << max(0, profit);
 }
