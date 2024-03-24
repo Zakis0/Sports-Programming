@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/E. Two out of three/cmake-build-debug/CMakeFiles/E__Two_out_of_three.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/E. Two out of three/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/E. Two out of three/cmake-build-debug/CMakeFiles/rebuild_cache.dir

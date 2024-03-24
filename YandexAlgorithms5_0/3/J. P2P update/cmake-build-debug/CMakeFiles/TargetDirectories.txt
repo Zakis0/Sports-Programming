@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/J. P2P update/cmake-build-debug/CMakeFiles/J__P2P_update.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/J. P2P update/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/J. P2P update/cmake-build-debug/CMakeFiles/rebuild_cache.dir

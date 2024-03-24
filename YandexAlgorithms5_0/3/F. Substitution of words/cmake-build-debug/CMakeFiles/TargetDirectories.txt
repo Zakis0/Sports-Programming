@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/F. Substitution of words/cmake-build-debug/CMakeFiles/F__Substitution_of_words.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/F. Substitution of words/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/F. Substitution of words/cmake-build-debug/CMakeFiles/rebuild_cache.dir

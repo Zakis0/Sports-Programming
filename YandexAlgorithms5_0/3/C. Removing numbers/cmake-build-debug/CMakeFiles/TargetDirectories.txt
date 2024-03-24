@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/C. Removing numbers/cmake-build-debug/CMakeFiles/C__Removing_numbers.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/C. Removing numbers/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/C. Removing numbers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
