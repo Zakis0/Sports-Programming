@@ -39,19 +39,20 @@ void solve() {
         return;
     }
     vector<int> numbersVector(all(numbersSet));
-    for (int i = 0; i < numbersVector.size(); ++i) {
-        for (int j = i + 1; j < numbersVector.size(); ++j) {
-            if (abs(numbersVector[i] - numbersVector[j]) > 1) {
-                continue;
-            }
-            if (counter[numbersVector[i]] + counter[numbersVector[j]] >
-                    counter[bestPair.first] + counter[bestPair.second]) {
-                bestPair.first = numbersVector[i];
-                bestPair.second = numbersVector[j];
-            }
+    for (int i = 0; i < numbersVector.size() - 1; ++i) {
+        if (abs(numbersVector[i] - numbersVector[i + 1]) == 1 &&
+                counter[numbersVector[i]] + counter[numbersVector[i + 1]] >
+                counter[bestPair.first] + counter[bestPair.second]) {
+            bestPair.first = numbersVector[i];
+            bestPair.second = numbersVector[i + 1];
         }
     }
-    cout << (n - counter[bestPair.first] - counter[bestPair.second]);
+    if (bestPair.first == -1) {
+        cout << n - 1;
+    }
+    else {
+        cout << (n - counter[bestPair.first] - counter[bestPair.second]);
+    }
 }
 
 int main() {

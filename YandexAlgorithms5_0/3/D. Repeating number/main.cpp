@@ -26,10 +26,134 @@ using namespace std;
 const string YES = "YES";
 const string NO = "NO";
 
-void solve() {
-    int n, k;
-    cin >> n >> k;
+class Multiset {
+    map<int, int> numOfValues;
+public:
+    void insert(int value) {
+        ++numOfValues[value];
+    }
+    void erase(int value) {
+        if (numOfValues[value] > 0) {
+            --numOfValues[value];
+        }
+    }
+    bool contains(int value) {
+        return numOfValues[value] > 0;
+    }
+};
 
+class Queue {
+private:
+    int size, front_, rear, maxSize;
+    int* queue;
+
+    Multiset valuesSet;
+
+    void inc(int &n) {
+        n = (n + maxSize + 1) % maxSize;
+    }
+public:
+    explicit Queue(int maxSize = 1024) {
+        size = 0;
+        front_ = 0;
+        rear = 0;
+        this->maxSize = maxSize;
+        queue = new int[this->maxSize];
+    }
+    ~Queue() {
+        delete[] queue;
+    }
+    bool isEmpty() const {
+        return size == 0;
+    }
+    bool isFull() const {
+        return size == maxSize;
+    }
+    int front() {
+        if (!isEmpty()) {
+            return queue[front_];
+        }
+        else {
+            cerr << "Queue is empty" << endl;
+        }
+    }
+    void pop() {
+        if (!isEmpty()) {
+            valuesSet.erase(queue[front_]);
+            inc(front_);
+            --size;
+        }
+        else {
+            cerr << "Queue is empty" << endl;
+        }
+    }
+    void push(int n) {
+        if (!isFull()) {
+            valuesSet.insert(n);
+            queue[rear] = n;
+            inc(rear);
+            ++size;
+        }
+        else {
+            cerr << "Queue is full" << endl;
+        }
+    }
+    int getAndPop() {
+        if (!isEmpty()) {
+            int f = front();
+            inc(front_);
+            --size;
+            return f;
+        }
+        else {
+            cerr << "Queue is empty" << endl;
+        }
+    }
+    int getSize() const {
+        return size;
+    }
+    int getMaxSize() const {
+        return maxSize;
+    }
+    int* getQueue() {
+        int* arr = new int[size];
+        int pos = front_;
+        for (int i = 0; i < size; ++i) {
+            arr[i] = queue[pos];
+            pos = (pos + maxSize + 1) % maxSize;
+        }
+        return arr;
+    }
+    bool contains(int value) {
+        return valuesSet.contains(value);
+    }
+
+    friend ostream& operator<<(ostream& out, Queue& queue) {
+        int* arr = queue.getQueue();
+        for (int i = 0; i < queue.size; ++i) {
+            cout << arr[i] << " ";
+        }
+        delete[] arr;
+        return out;
+    }
+};
+
+void solve() {
+    int n, k, number;
+    cin >> n >> k;
+    Queue lastKNumbers(k + 1);
+    for (int i = 0; i < n; ++i) {
+        cin >> number;
+        if (i > k) {
+            lastKNumbers.pop();
+        }
+        if (lastKNumbers.contains(number)) {
+            cout << YES;
+            return;
+        }
+        lastKNumbers.push(number);
+    }
+    cout << NO;
 }
 
 int main() {

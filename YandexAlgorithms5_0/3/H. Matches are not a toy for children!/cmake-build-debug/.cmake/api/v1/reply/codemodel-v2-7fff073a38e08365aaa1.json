@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "H__Matches_are_not_a_toy_for_children_",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "H__Matches_are_not_a_toy_for_children_::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-H__Matches_are_not_a_toy_for_children_-Debug-9194a55bf042733c2480.json",
+					"name" : "H__Matches_are_not_a_toy_for_children_",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/H. Matches are not a toy for children!/cmake-build-debug",
+		"source" : "/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/3/H. Matches are not a toy for children!"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

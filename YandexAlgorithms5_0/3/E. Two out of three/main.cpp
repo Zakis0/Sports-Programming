@@ -2,7 +2,7 @@
 #define LOCAL_RUN
 //#define PRINT_TIME
 
-//#define INPUT_FROM_FILE
+#define INPUT_FROM_FILE
 //#define OUTPUT_TO_FILE
 
 

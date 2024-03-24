@@ -1,5 +1,5 @@
 #define DEBUG
-//#define LOCAL_RUN
+#define LOCAL_RUN
 //#define PRINT_TIME
 
 #define INPUT_FROM_FILE
@@ -195,10 +195,6 @@ void solve() {
                 iss >> fillerString;
                 team2Name = parseName(iss, line);
                 iss >> team1Score >> fillerChar >> team2Score;
-
-                if (team2Name == "\"TgbmqG J o h h rl bnEMIVExJw\"") {
-                    int a = 1;
-                }
 
                 ++teams[team1Name].numOfMatches;
                 ++teams[team2Name].numOfMatches;

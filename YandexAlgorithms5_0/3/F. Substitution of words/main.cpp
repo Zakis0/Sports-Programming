@@ -24,7 +24,31 @@ using ld [[maybe_unused]] = double;
 using namespace std;
 
 void solve() {
+    set<string> replacements;
+    set<int> replacementsLengths;
 
+    string line, word;
+    getline(cin, line);
+    istringstream iss(line);
+    while (iss >> word) {
+        replacements.insert(word);
+        replacementsLengths.insert(word.size());
+    }
+    getline(cin, line);
+    iss = istringstream(line);
+    while (iss >> word) {
+        string bestReplacement = word;
+        for (int replacementLength: replacementsLengths) {
+            if (replacementLength > word.size()) {
+                break;
+            }
+            string prefix = word.substr(0, replacementLength);
+            if (replacements.contains(prefix) && prefix.size() < bestReplacement.size()) {
+                bestReplacement = prefix;
+            }
+        }
+        cout << bestReplacement << " ";
+    }
 }
 
 int main() {
