@@ -58,7 +58,7 @@ int main() {
 #endif
     std::cout << setprecision(5);
 #ifdef PRINT_TIME
-    std::cout << "_____________________________" << endl <<
+    std::cout << std::endl << "_____________________________" << endl <<
     "The time: " << (ld)(end - start) / CLOCKS_PER_SEC << " seconds" << std::endl;
 #endif
     return 0;
