@@ -21,19 +21,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4dd65c7-30e9-42fa-9d46-94776b803331" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E__Two_out_of_three.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/E__Two_out_of_three.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/E__Two_out_of_three" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/E__Two_out_of_three" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ICPC/1/StrangeApples/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ICPC/1/StrangeApples/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Template/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Template/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C. Removing numbers/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../C. Removing numbers/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D. Repeating number/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../D. Repeating number/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../F. Substitution of words/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../F. Substitution of words/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../F. Substitution of words/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../F. Substitution of words/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I. Play football!/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../I. Play football!/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I. Play football!/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../I. Play football!/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I. Play football!/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../I. Play football!/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I. Play football!/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../I. Play football!/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../I. Play football!/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../I. Play football!/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. Construct a square/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../G. Construct a square/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. Construct a square/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../G. Construct a square/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. Construct a square/cmake-build-debug/CMakeFiles/G__Construct_a_square.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../G. Construct a square/cmake-build-debug/CMakeFiles/G__Construct_a_square.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. Construct a square/cmake-build-debug/G__Construct_a_square" beforeDir="false" afterPath="$PROJECT_DIR$/../G. Construct a square/cmake-build-debug/G__Construct_a_square" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. Construct a square/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../G. Construct a square/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. Construct a square/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../G. Construct a square/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H. Matches are not a toy for children!/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../H. Matches are not a toy for children!/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H. Matches are not a toy for children!/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-67e707a0e3d0c8619783.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H. Matches are not a toy for children!/cmake-build-debug/.cmake/api/v1/reply/index-2024-03-24T23-22-59-0416.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H. Matches are not a toy for children!/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../H. Matches are not a toy for children!/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H. Matches are not a toy for children!/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../H. Matches are not a toy for children!/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H. Matches are not a toy for children!/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../H. Matches are not a toy for children!/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H. Matches are not a toy for children!/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../H. Matches are not a toy for children!/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J. P2P update/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../J. P2P update/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +91,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -100,6 +102,7 @@
       <updated>1711201383801</updated>
       <workItem from="1711201384976" duration="846000" />
       <workItem from="1711317708209" duration="822000" />
+      <workItem from="1711413469159" duration="405000" />
     </task>
     <servers />
   </component>

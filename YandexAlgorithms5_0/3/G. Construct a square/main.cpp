@@ -23,40 +23,121 @@ using ld [[maybe_unused]] = double;
 
 using namespace std;
 
+bool checkIfPointsPairExist(
+        pair<int, int> point1,
+        pair<int, int> point2,
+        set<pair<int, int>>& points,
+        set<pair<int, int>>& pointsToInsert,
+        int& minPointsToInsert,
+        bool& breakFlag
+        ) {
+    int numOfNeededPoints = 2;
+    set<pair<int, int>> curPointsToInsert;
+    if (points.contains(point1)) {
+        --numOfNeededPoints;
+    }
+    else {
+        curPointsToInsert.insert(point1);
+    }
+    if (points.contains(point2)) {
+        --numOfNeededPoints;
+    }
+    else {
+        curPointsToInsert.insert(point2);
+    }
+    if (numOfNeededPoints < minPointsToInsert) {
+        minPointsToInsert = numOfNeededPoints;
+        pointsToInsert = curPointsToInsert;
+        if (numOfNeededPoints == 0) {
+            breakFlag = true;
+        }
+    }
+    return breakFlag;
+}
+
+bool checkIfPointsExist(
+        pair<int, int> point1,
+        pair<int, int> point2,
+        set<pair<int, int>>& points,
+        set<pair<int, int>>& pointsToInsert,
+        int& minPointsToInsert,
+        bool& breakFlag
+        ) {
+    bool exitProgram;
+    if (point1.first == point2.first) {
+        int distance = abs(point1.second - point2.second);
+        exitProgram = checkIfPointsPairExist(
+                pair(point1.first + distance, point1.second),
+                pair(point1.first + distance, point2.second),
+                points, pointsToInsert, minPointsToInsert, breakFlag);
+        exitProgram = exitProgram || checkIfPointsPairExist(
+                pair(point1.first - distance, point1.second),
+                pair(point1.first - distance, point2.second),
+                points, pointsToInsert, minPointsToInsert, breakFlag);
+    }
+    else if (point1.second == point2.second) { // seems that it`s already in else branch
+        int distance = abs(point1.first - point2.first);
+        exitProgram = checkIfPointsPairExist(
+                pair(point1.first, point1.second + distance),
+                pair(point2.first, point2.second + distance),
+                points, pointsToInsert, minPointsToInsert, breakFlag);
+        exitProgram = exitProgram || checkIfPointsPairExist(
+                pair(point1.first, point1.second - distance),
+                pair(point2.first, point2.second - distance),
+                points, pointsToInsert, minPointsToInsert, breakFlag);
+    }
+    else {
+        int deltaX = point1.first - point2.first;
+        int deltaY = point1.second - point2.second;
+        float slope = (float)deltaY / deltaX;
+        deltaX = abs(deltaX);
+        deltaY = abs(deltaY);
+        if (slope < 0) {
+            exitProgram = checkIfPointsPairExist(
+                    pair(point1.first + deltaY, point1.second + deltaX),
+                    pair(point2.first + deltaY, point2.second + deltaX),
+                    points, pointsToInsert, minPointsToInsert, breakFlag);
+            exitProgram = exitProgram || checkIfPointsPairExist(
+                    pair(point1.first - deltaY, point1.second - deltaX),
+                    pair(point2.first - deltaY, point2.second - deltaX),
+                    points, pointsToInsert, minPointsToInsert, breakFlag);
+        }
+        else {
+            exitProgram = checkIfPointsPairExist(
+                    pair(point1.first - deltaY, point1.second + deltaX),
+                    pair(point2.first - deltaY, point2.second + deltaX),
+                    points, pointsToInsert, minPointsToInsert, breakFlag);
+            exitProgram = exitProgram || checkIfPointsPairExist(
+                    pair(point1.first + deltaY, point1.second - deltaX),
+                    pair(point2.first + deltaY, point2.second - deltaX),
+                    points, pointsToInsert, minPointsToInsert, breakFlag);
+        }
+    }
+    return exitProgram;
+}
+
 void solve() {
     int n, x, y;
-    set<pair<int, int>> points;
+    set<pair<int, int>> points1, points2;
     cin >> n;
     for (int i = 0; i < n; ++i) {
         cin >> x >> y;
-        points.insert(pair(x, y));
+        points1.insert(pair(x, y));
+        points2.insert(pair(x, y));
     }
-    vector<pair<int, int>> leftTopOffset = { pair(-1, 0), pair(0, -1), pair(-1, -1)};
-    vector<pair<int, int>> leftBottomOffset = { pair(-1, 0), pair(0, 1), pair(-1, 1)};
-    vector<pair<int, int>> rightTopOffset = { pair(1, 0), pair(0, -1), pair(1, -1)};
-    vector<pair<int, int>> rightBottomOffset = { pair(1, 0), pair(0, 1), pair(1, 1)};
-
-    vector<vector<pair<int, int>>> offsets = {leftTopOffset, leftBottomOffset, rightTopOffset, rightBottomOffset};
-
-    int minPointsToInsert = 4;
     set<pair<int, int>> pointsToInsert;
-    for (pair<int, int> point: points) {
-        for (const vector<pair<int, int>>& offset: offsets) {
-            int curMinPointsToInsert = 3;
-            for (pair<int, int> offsetPair: offset) {
-                if (points.contains(pair(point.first + offsetPair.first, point.second + offsetPair.second))) {
-                    --curMinPointsToInsert;
-                }
+    int minPointsToInsert = 4;
+    bool breakFlag = false;
+
+    for (pair<int, int> point1: points1) {
+        points2.erase(point1);
+        for (pair<int, int> point2: points2) {
+            if(checkIfPointsExist(point1, point2, points1, pointsToInsert, minPointsToInsert, breakFlag)) {
+                break;
             }
-            if (curMinPointsToInsert < minPointsToInsert) {
-                minPointsToInsert = curMinPointsToInsert;
-                pointsToInsert.clear();
-                for (pair<int, int> offsetPair: offset) {
-                    if (!points.contains(pair(point.first + offsetPair.first, point.second + offsetPair.second))) {
-                        pointsToInsert.insert(pair(point.first + offsetPair.first, point.second + offsetPair.second));
-                    }
-                }
-            }
+        }
+        if (breakFlag) {
+            break;
         }
     }
     cout << minPointsToInsert << endl;

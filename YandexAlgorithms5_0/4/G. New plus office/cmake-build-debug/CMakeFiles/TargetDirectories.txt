@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/4/G. New plus office/cmake-build-debug/CMakeFiles/G__New_plus_office.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/4/G. New plus office/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/4/G. New plus office/cmake-build-debug/CMakeFiles/rebuild_cache.dir

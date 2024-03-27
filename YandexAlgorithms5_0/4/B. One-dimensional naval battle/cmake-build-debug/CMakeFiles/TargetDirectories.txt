@@ -1,0 +1,3 @@
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/4/B. One-dimensional naval battle/cmake-build-debug/CMakeFiles/B__One_dimensional_naval_battle.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/4/B. One-dimensional naval battle/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/4/B. One-dimensional naval battle/cmake-build-debug/CMakeFiles/rebuild_cache.dir

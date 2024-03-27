@@ -1,4 +1,4 @@
-#define DEBUG
+//#define DEBUG
 #define LOCAL_RUN
 //#define PRINT_TIME
 
