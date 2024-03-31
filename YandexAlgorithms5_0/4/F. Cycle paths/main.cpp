@@ -26,11 +26,54 @@ using namespace std;
 void solve() {
     int width, height, numOfCrackedTiles, x, y;
     cin >> width >> height >> numOfCrackedTiles;
-    vector<pair<int, int>> crackedTiles;
+    vector<pair<int, int>> crackedTiles(numOfCrackedTiles);
+    vector<int> heights(numOfCrackedTiles);
     for (int i = 0; i < numOfCrackedTiles; ++i) {
-        cin >> x >> y;
-        crackedTiles.emplace_back(x, y);
+        cin >> crackedTiles[i].first >> crackedTiles[i].second;
     }
+    sort(all(crackedTiles));
+    for (int i = 0; i < numOfCrackedTiles; ++i) {
+        heights[i] = crackedTiles[i].second;
+    }
+    vector<int> leftPartMinHeight = heights;
+    vector<int> leftPartMaxHeight = heights;
+    vector<int> rightPartMinHeight = heights;
+    vector<int> rightPartMaxHeight = heights;
+
+    for (int i = 0; i < numOfCrackedTiles - 1; ++i) {
+        leftPartMinHeight[i + 1] = min(leftPartMinHeight[i], leftPartMinHeight[i + 1]);
+        leftPartMaxHeight[i + 1] = max(leftPartMaxHeight[i], leftPartMaxHeight[i + 1]);
+    }
+    for (int i = numOfCrackedTiles - 1; i > 0; --i) {
+        rightPartMinHeight[i - 1] = min(rightPartMinHeight[i], rightPartMinHeight[i - 1]);
+        rightPartMaxHeight[i - 1] = max(rightPartMaxHeight[i], rightPartMaxHeight[i - 1]);
+    }
+
+    int left = 1, right = min(width, height);
+    while (left <= right) {
+        int center = (left + right) / 2;
+        int leftPointIndex = 0;
+        bool changeLeft = true;
+        for (int rightPointIndex = 0; rightPointIndex < numOfCrackedTiles; ++rightPointIndex) {
+            while (crackedTiles[rightPointIndex].first -
+                crackedTiles[leftPointIndex++].first >= center);
+            int maxHeight = max(--leftPointIndex > 0 ? leftPartMaxHeight[leftPointIndex - 1] : -1,
+                                rightPointIndex + 1 < numOfCrackedTiles ?
+                                rightPartMaxHeight[rightPointIndex + 1] : -1);
+            int minHeight = min(leftPointIndex > 0 ? leftPartMinHeight[leftPointIndex - 1] : INT32_MAX,
+                                rightPointIndex + 1 < numOfCrackedTiles ?
+                                rightPartMinHeight[rightPointIndex + 1] : INT32_MAX);
+            if (maxHeight - minHeight + 1 <= center) {
+                right = center - 1;
+                changeLeft = false;
+                break;
+            }
+        }
+        if (changeLeft) {
+            left = center + 1;
+        }
+    }
+    cout << left;
 }
 
 int main() {

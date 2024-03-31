@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="I__Lapta" targetName="I__Lapta" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80031525-3c64-4ef4-aac3-e9183e5ac197" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Template/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Template/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B. One-dimensional naval battle/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../B. One-dimensional naval battle/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../D. Report/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../D. Report/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../F. Cycle paths/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-450b444f493c992413b0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../F. Cycle paths/cmake-build-debug/.cmake/api/v1/reply/index-2024-03-27T19-56-24-0397.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../F. Cycle paths/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../F. Cycle paths/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../F. Cycle paths/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../F. Cycle paths/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../F. Cycle paths/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../F. Cycle paths/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../F. Cycle paths/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../F. Cycle paths/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-531838c8b6d65b156fac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/.cmake/api/v1/reply/index-2024-03-27T21-13-21-0124.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/CMakeFiles/G__New_plus_office.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/CMakeFiles/G__New_plus_office.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/G__New_plus_office" beforeDir="false" afterPath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/G__New_plus_office" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../G. New plus office/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. New plus office/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../G. New plus office/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../G. New plus office/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../G. New plus office/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H. Elections/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-cd7c63d5fca773ee6a53.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H. Elections/cmake-build-debug/.cmake/api/v1/reply/index-2024-03-27T21-07-46-0825.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H. Elections/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../H. Elections/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H. Elections/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../H. Elections/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H. Elections/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../H. Elections/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H. Elections/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../H. Elections/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c8e8b723cd4f270ffe14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-03-27T20-59-05-0533.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="3.4" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2eMDhF1mweNzsolms4svxbTYNL9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.I__Lapta.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/zakis/Code/sportsProgramming/YandexAlgorithms5_0/4/I. Lapta",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="I__Lapta" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="I__Lapta" TARGET_NAME="I__Lapta" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="I__Lapta" RUN_TARGET_NAME="I__Lapta">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80031525-3c64-4ef4-aac3-e9183e5ac197" name="Changes" comment="" />
+      <created>1711705671055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711705671055</updated>
+      <workItem from="1711705672186" duration="6003000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>137</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

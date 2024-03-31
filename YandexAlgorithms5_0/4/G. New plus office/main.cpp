@@ -1,8 +1,8 @@
-#define DEBUG
+//#define DEBUG
 #define LOCAL_RUN
-#define PRINT_TIME
+//#define PRINT_TIME
 
-#define INPUT_FROM_FILE
+//#define INPUT_FROM_FILE
 //#define OUTPUT_TO_FILE
 
 
@@ -26,56 +26,40 @@ using namespace std;
 const char CAN_BUILD_CHAR = '#';
 const char CANNOT_BUILD_CHAR = '.';
 
-bool canBuildBlock(pair<int, int> topLeftCornerCoords,
-                   int blockSize,
-                   set<pair<int, int>>& pointsForBuild) {
-    for (int i = 0; i < blockSize; ++i) {
-        for (int j = 0; j < blockSize; ++j) {
-            if (!pointsForBuild.contains(pair(
-                    topLeftCornerCoords.first + j,
-                    topLeftCornerCoords.second + i))) {
-                return false;
+#define MAX_NUM_OP_POINTS 2000
+
+int pointsForBuild[MAX_NUM_OP_POINTS][MAX_NUM_OP_POINTS];
+
+void getMapOfMaxBlockSizeThatCanBeBuildInPoint() {
+    for (int i = MAX_NUM_OP_POINTS - 2; i >= 0; --i) {
+        for (int j = MAX_NUM_OP_POINTS - 2; j >= 0; --j) {
+            if (!pointsForBuild[i][j]) {
+                continue;
             }
+            pointsForBuild[i][j] = 1 + min(pointsForBuild[i + 1][j],
+                                           min(pointsForBuild[i][j + 1],
+                                               pointsForBuild[i + 1][j + 1]));
         }
     }
-    return true;
 }
 
-bool canBuildPlus(pair<int, int> middleBlockTopLeftCornerCoords,
-                  int blockSize,
-                  map<int, set<pair<int, int>>>& topLeftCornersOfExistedBlockWithSize) {
-    return topLeftCornersOfExistedBlockWithSize[blockSize].contains(middleBlockTopLeftCornerCoords) && // middle
-            topLeftCornersOfExistedBlockWithSize[blockSize].contains(// top
-    pair(middleBlockTopLeftCornerCoords.first,
-         middleBlockTopLeftCornerCoords.second - blockSize)) &&
-            topLeftCornersOfExistedBlockWithSize[blockSize].contains(// bottom
-    pair(middleBlockTopLeftCornerCoords.first,
-         middleBlockTopLeftCornerCoords.second + blockSize)) &&
-            topLeftCornersOfExistedBlockWithSize[blockSize].contains(// left
-    pair(middleBlockTopLeftCornerCoords.first - blockSize,
-         middleBlockTopLeftCornerCoords.second)) &&
-            topLeftCornersOfExistedBlockWithSize[blockSize].contains(// right
-    pair(middleBlockTopLeftCornerCoords.first + blockSize,
-         middleBlockTopLeftCornerCoords.second));
-}
-
-map<int, set<pair<int, int>>> getMapOfExistedBlockBySize(set<pair<int, int>>& pointsForBuild) {
-
-}
-
-bool existsPlus(int blockSize, set<pair<int, int>>& pointsForBuild) {
+bool existsPlus(int blockSize) {
 #ifdef DEBUG
     cout << blockSize << endl;
 #endif
-    set<pair<int, int>> topLeftCornersOfExistedBlock;
-    for (pair<int, int> blockTopLeftCornerCoords: pointsForBuild) {
-        if (canBuildBlock(blockTopLeftCornerCoords, blockSize, pointsForBuild)) {
-            topLeftCornersOfExistedBlock.insert(blockTopLeftCornerCoords);
-        }
-    }
-    for (pair<int, int> middleBlockTopLeftCornerCoords: pointsForBuild) {
-        if (canBuildPlus(middleBlockTopLeftCornerCoords, blockSize, topLeftCornersOfExistedBlock)) {
-            return true;
+    for (int i = 0; i < MAX_NUM_OP_POINTS; ++i) {
+        for (int j = 0; j < MAX_NUM_OP_POINTS; ++j) {
+            if (pointsForBuild[i][j] >= blockSize &&
+                i + blockSize < MAX_NUM_OP_POINTS &&
+                j + blockSize < MAX_NUM_OP_POINTS &&
+                i - blockSize >= 0 &&
+                j - blockSize >= 0 &&
+                pointsForBuild[i + blockSize][j] >= blockSize &&
+                pointsForBuild[i - blockSize][j] >= blockSize &&
+                pointsForBuild[i][j + blockSize] >= blockSize &&
+                pointsForBuild[i][j - blockSize] >= blockSize) {
+                return true;
+            }
         }
     }
     return false;
@@ -84,23 +68,22 @@ bool existsPlus(int blockSize, set<pair<int, int>>& pointsForBuild) {
 void solve() {
     char c;
     int height, width;
+    std::time_t start = clock();
     cin >> height >> width;
-    set<pair<int, int>> pointsForBuild;
     for (int i = 0; i < height; ++i) {
         for (int j = 0; j < width; ++j) {
             cin >> c;
-            if (c == CAN_BUILD_CHAR) {
-                pointsForBuild.insert(pair(i, j));
-            }
+            pointsForBuild[i][j] = c == CAN_BUILD_CHAR;
         }
     }
+    getMapOfMaxBlockSizeThatCanBeBuildInPoint();
     float blockSize = 0.5;
-    while (existsPlus((int)(blockSize *= 2), pointsForBuild));
+    while (existsPlus((int)(blockSize *= 2)));
     int left = (int)blockSize / 2, right = (int)blockSize;
     while (left <= right) {
         int center = left + (right - left) / 2;
-        bool existsPlusForBlockSize = existsPlus(center, pointsForBuild);
-        if (existsPlusForBlockSize && !existsPlus(center + 1, pointsForBuild)) {
+        bool existsPlusForBlockSize = existsPlus(center);
+        if (existsPlusForBlockSize && !existsPlus(center + 1)) {
             cout << center;
         }
         if (existsPlusForBlockSize) left = center + 1;
