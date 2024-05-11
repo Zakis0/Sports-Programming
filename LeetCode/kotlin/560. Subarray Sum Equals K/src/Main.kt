@@ -1,27 +1,20 @@
 //https://leetcode.com/problems/subarray-sum-equals-k/
-import kotlin.math.abs
 fun subarraySum(nums: IntArray, k: Int): Int {
-    var leftWindow = 0
-    var rightWindow = 0
-    var result = 0
-    var curSum = nums.first()
-    while (true) {
-        if (curSum == k) {
-            ++result
-        }
-        if (rightWindow == nums.size - 1 && curSum < k || leftWindow == nums.size - 1) break
-        if (abs(curSum + nums[rightWindow] - k) < abs(curSum - nums[leftWindow] - k)) {
-            curSum += nums[++rightWindow]
-        }
-        else {
-            curSum -= nums[leftWindow++]
-        }
-        if (leftWindow > rightWindow) {
-            curSum += nums[++rightWindow]
-        }
+    val map = HashMap<Int, Int>()
+    var count = 0
+    var sum = 0
+    map[0] = 1
+    for (num in nums) {
+        sum += num
+        count += map[sum - k] ?: 0
+        map[sum] = (map[sum] ?: 0) + 1
     }
-    return result
+    return count
 }
 fun main() {
+    println(subarraySum(intArrayOf(1,1,1), 2))
+    println(subarraySum(intArrayOf(1,2,3), 3))
+    println(subarraySum(intArrayOf(1), 0))
     println(subarraySum(intArrayOf(-1,-1,1), 0))
+    println(subarraySum(intArrayOf(-1,-1,1), -1))
 }

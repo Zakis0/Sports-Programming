@@ -4,15 +4,13 @@ fun maxDistToClosest(seats: IntArray): Int {
     var maxDistance = 0
     var curDistance = 0
     var firstPersonFlag = true
-    seats.forEachIndexed { index, seat ->
+    seats.forEach { seat ->
         if (seat == 1) {
             if (firstPersonFlag) {
                 maxDistance = curDistance
                 firstPersonFlag = false
             }
-            if ((curDistance + 1) / 2 > maxDistance) {
-                maxDistance = (curDistance + 1) / 2
-            }
+            maxDistance = max((curDistance + 1) / 2, maxDistance)
             curDistance = 0
         }
         else {
